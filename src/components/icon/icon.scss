@@ -1,0 +1,22 @@
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  width: 26px;
+  height: 26px;
+  background: #efefef;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-bottom: 5px;
+
+  &:hover, &__active {
+    background: rgba(0, 255, 255, 0.5);
+  }
+
+  &__image {
+    width: 20px;
+    height: 20px;
+    background-size: contain !important;
+  }
+}

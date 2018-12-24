@@ -1,0 +1,48 @@
+.choice-color {
+
+  &__inline-block {
+    display: inline-block;
+  }
+
+  &__color {
+    &_red {
+      background: red;
+    }
+
+    &_orange {
+      background: orange;
+    }
+
+    &_yellow {
+      background: yellow;
+    }
+
+    &_green {
+      background: green;
+    }
+
+    &_blue {
+      background: blue;
+    }
+
+    &_indigo {
+      background: indigo;
+    }
+
+    &_violet {
+      background: violet;
+    }
+
+    &_black {
+      background: black;
+    }
+
+    &_white {
+      background: white;
+    }
+  }
+
+  &__icon {
+    background: black;
+  }
+}
